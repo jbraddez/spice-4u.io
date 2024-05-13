@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spice 4U | Darlington</title>
+    <link rel="website icon" type="png" href="./images/web-logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <img id="background" src="./images/background.jpg">
+
+    <div class="main-content">
+        <!-- ORDER + DOWNLOAD BUTTONS BELOW -->
+        <div id="download-main">
+            <p id="download-text">DOWNLOAD OUR APP!</p>
+
+            <div>
+                <a href="https://apps.apple.com/us/app/spice-4u-darlington/id1525888879"><img class="app-button"  src="https://www.spice-4u.co.uk/image/ios.png"></a><a href="https://play.google.com/store/apps/details?id=com.orderdirectly.spiceforudarlington"><img class="app-button" src="https://cdn.bitrix24.site/bitrix/images/landing/google-play-badge.svg"></a>
+            </div>
+            <h2 class="text">OR</h2>
+            <a href="https://orderdirectly.biz/menu/683"><button id="order-online-button">Order Online</button></a>
+
+        </div>
+
+        <img id="phone" src="https://orderdirectly.biz/NativeAppImages/screenshot683.png">
+    </div>
+
+
+    <!--HEADER + FOOTER BELOW-->
+    <div class="header-back"></div>
+    <header><a href=""><img class="logo" src="./images/logo.png"></a> <a href="contact-us.html"><h4 class="contact-us">CONTACT US</h4></a> </header>
+
+    <div class="footer-back"></div>
+    <footer><div class="footer-content"><a class="ordertext" href="https://www.orderdirectly.com/">© Order Directly.</a> All rights reserved. <br><br>Privacy Policy </div></footer>
+</body>
+
+
+<script>
+    function backgroundSize(){
+        var screenWidth = window.innerWidth;
+        var screenHeight = window.innerHeight;
+        var bg_img = document.getElementById('background');
+        var d_text = document.getElementById('download-text');
+        var order_button = document.getElementById('order-online-button');
+        var download_main = document.getElementById('download-main');
+        
+        if (screenHeight < 700){
+            bg_img.style.height = (screenHeight + 10) + 'px';
+            bg_img.style.width = 'inherit';
+            d_text.style.fontSize = '25px';
+            order_button.style.fontSize = '10px';
+            download_main.style.top = '60px';
+            
+        }else{
+            order_button.style.fontSize = '';
+            download_main.style.top = '';
+            
+            if (screenWidth < 800){
+            
+            bg_img.style.width = '1600px';
+            bg_img.style.height = '960px';
+            d_text.style.fontSize = '45px';
+        }
+        else{
+            bg_img.style.width = '2000px';
+            bg_img.style.height = '1200px';
+            d_text.style.fontSize = '70px';
+        }
+        }
+    }
+
+    window.addEventListener('resize', backgroundSize)
+    window.addEventListener('load', backgroundSize)
+
+    window.onscroll = function () {
+        window.scrollTo(0,0);
+    }
+
+</script>
+</html>

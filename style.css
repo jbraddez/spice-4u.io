@@ -1,0 +1,226 @@
+#background{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2000px;
+    height: 1200px;
+    clip:auto ;
+    overflow-x: hidden !important;
+}
+
+
+body{
+    overflow: hidden;
+    
+}
+
+
+header{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 15%;
+}
+
+.header-back{
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    left: 0px;
+    height: 15%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(45,45,45,1) 99%);
+    opacity: 45%;
+}
+
+footer{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    height: 10%;
+    text-align: center;
+    color: white;
+    font-weight: 100 !important;
+    letter-spacing: 0.6px;
+}
+
+.footer-back{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 0px;
+    height: 10%;
+    background: rgb(0,0,0);
+    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(45,45,45,1) 99%);
+    opacity: 60%;
+    font-size: 12px;
+    font-family:  Times, serif, arial, helvetica;
+}
+
+.footer-content{
+    margin: 15px;
+}
+
+#download-main{
+    position: absolute;
+    top: 0px;
+}
+
+.ordertext{
+    color: white;
+    text-decoration: none;
+}
+
+.ordertext:hover{
+    color:  rgb(195, 65, 207);
+}
+
+.logo{
+    width: 10%;
+    min-width: 130px !important;
+    transform: translateX(40px);
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15%;
+    opacity: 550% !important;
+
+}
+
+.contact-us{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-150%);
+    right: 15%;
+    text-decoration: none;
+    color: white;
+    opacity: 1 !important;
+    font-size: 18px;
+    font-weight: 300;
+    
+}
+
+.contact-us:hover{
+    color: rgb(130, 130, 130);
+}
+
+
+.main-content{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20%;
+    height: 65%;
+    width: 90%;
+}
+
+#phone{
+    position: absolute;
+    right: 0px;
+    transform: translateY(-50%);
+    top: 50%;
+    width: 35%;
+    transition:  1s ease-in-out;
+    
+}
+
+
+#download-text{
+    font-size: 70px;
+    font-family: georgia, sans-serif;
+    width: 40%;
+    font-weight: 100;
+    position: relative;
+    left: 50%;
+    transform: translateX(-100%);
+    text-align: center;
+    color: white;
+    text-shadow: 5px 5px 5px rgb(130, 130, 130);
+}
+
+
+.app-button{
+    width: 20%;
+    margin-right: 10px;
+    position: relative; 
+    left: 50%;
+    transform: translateX(-200%);
+}
+
+.text{
+    color: white;
+    font-family: arial, sans-serif,helvetica;
+    font-weight: 200;
+    position: relative;
+    text-align: center;
+    transform: translateX(-20%);
+}
+
+
+#order-online-button{
+    width: 20%;
+    height: 40px;
+    font-family: sans-serif,times,'times new roman',Arial, Helvetica, sans-serif;
+    border: none;
+    background-color: rgb(61, 60, 60);
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    transition: 0.4s ease-in-out;
+    border-radius: 5px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-150%);
+}
+
+#order-online-button:hover{
+    background-color: rgb(94, 94, 94);
+    color: rgb(40, 175, 40);
+}
+
+#contact-info{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    
+}
+
+
+#con1{
+    position: relative;
+    top: -50px !important;
+}
+
+#con2{
+    position: relative;
+    top: 50px !important;
+}
+
+.contact-text{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    text-shadow: 3px 3px 3px black;
+}
+
+.contact-hover{
+    text-align: center;
+    transition: 0.2s;
+}
+
+.contact-hover:hover{
+    color: rgb(40, 175, 40);
+    text-decoration: underline;
+    text-shadow: none;
+    transition: 0.2s;
+}
